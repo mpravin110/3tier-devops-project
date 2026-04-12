@@ -1,0 +1,12 @@
+{
+  "name": "3tier-devops-project",
+  "version": "1.0.0",
+  "description": "Simple Node.js microservice for ECS deployment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
