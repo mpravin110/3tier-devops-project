@@ -17,7 +17,8 @@ pipeline {
 
     stage('Build Docker Image') {
       steps {
-        sh 'docker build -t 3tier-app .'
+        // FIXED PATH 👇
+        sh 'docker build -t 3tier-app ./3tier-devops-project'
       }
     }
 
